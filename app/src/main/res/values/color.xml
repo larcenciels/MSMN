@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lightish_gray">#ffaaaaaa</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="blue">#009fdb</color>
+    <color name="translucent_light">#55ffffff</color>
+    <color name="translucent_black">#80000000</color>
+    <color name="grey">#2C2C2C</color>
+    <color name="pink">#f40057</color>
+    <color name="coklat">#131313</color>
+</resources>

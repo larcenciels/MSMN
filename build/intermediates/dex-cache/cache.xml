@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/exploded-aar/com.github.manuelpeinado.fadingactionbar/fadingactionbar/3.1.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1db28e119b406a5fe367b63fb1be083d5dfe298a">
+        <dex dex="/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/pre-dexed/debug/classes-4130c00e9bdd849066d82685429ced5b8e56ded8.jar" />
+    </item>
+    <item
+        jar="/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/exploded-aar/com.github.manuelpeinado.fadingactionbar/fadingactionbar-abc/3.1.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ada4f8fc2f9cf0fb3c66fbe36d86f5c370684ef7">
+        <dex dex="/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/pre-dexed/debug/classes-04a3ec343abf42ff2079e7244f39222256149feb.jar" />
+    </item>
+    <item
+        jar="/home/winnerawan/.gradle/caches/modules-2/files-2.1/com.readystatesoftware.systembartint/systembartint/1.0.3/de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287/systembartint-1.0.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="de4f7404e2f58d8f6e83cb1e85d0c2d6c2987287">
+        <dex dex="/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/pre-dexed/debug/systembartint-1.0.3-911575caf191412b2cbd1284a8c4e967d9566933.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:colorPrimaryDark">@color/translucent_black</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="windowActionBarOverlay">true</item>
+
+    </style>
+    <style name="PopupMenuStyle" parent="Theme.AppCompat.Light">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="btn_outline">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@drawable/btn_background_outline</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingRight">10.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">32.0dip</item>
+        <item name="android:minHeight">1.0dip</item>
+    </style>
+</resources>

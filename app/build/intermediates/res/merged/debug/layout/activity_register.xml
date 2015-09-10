@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_gravity="center_horizontal"
+    android:id="@+id/re_login_view"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include layout="@layout/background" />
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:elevation="5dp"
+        android:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:clipToPadding="false"
+        app:popupTheme="@style/PopupMenuStyle"/>
+    <LinearLayout android:orientation="vertical"
+        android:id="@+id/li_login_bottom_view"
+        android:paddingLeft="30.0dip"
+        android:paddingRight="30.0dip"
+        android:paddingBottom="10.0dip"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/register"
+            android:textSize="@dimen/font_ml"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="30.0dip"
+            android:paddingRight="30.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="44.0dip"
+            android:text="Register"
+            android:elevation="5dp"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_background_outline_sign"
+            android:textAllCaps="false" />
+        <net.winnerawan.helper.SetanTextView
+            android:textSize="@dimen/font_ml"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:id="@+id/link_to_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25.0dip"
+            android:text="Already Registered? Sign In Now!" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/li_login_bottom_view">
+        <LinearLayout
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:paddingLeft="30.0dip"
+            android:layout_marginTop="20dp"
+            android:paddingRight="30.0dip"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/icon"
+                android:layout_width="96.0dip"
+                android:layout_height="96.0dip"
+                android:layout_marginTop="@dimen/spacing_2x"
+                android:layout_marginBottom="@dimen/spacing_2x"/>
+            <net.winnerawan.helper.SetanEditText
+                android:textSize="@dimen/font_ml"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/fullname"
+                android:background="@drawable/apptheme_edit_text_holo_dark"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_1.5x"
+                android:hint="Fullname"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:textCursorDrawable="@null" />
+            <net.winnerawan.helper.SetanEditText
+                android:textSize="@dimen/font_ml"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/email"
+                android:background="@drawable/apptheme_edit_text_holo_dark"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_1.5x"
+                android:layout_marginBottom="20.0dip"
+                android:hint="Email"
+                android:maxLines="1"
+                android:inputType="textEmailAddress"
+                android:textCursorDrawable="@null" />
+            <net.winnerawan.helper.SetanEditText
+                android:textSize="@dimen/font_ml"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/password"
+                android:background="@drawable/apptheme_edit_text_holo_dark"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:maxLines="1"
+                android:inputType="textPassword"
+                android:textCursorDrawable="@null" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout><!-- From: file:/home/winnerawan/AndroidStudioProjects/MSMN/app/src/main/res/layout/activity_register.xml -->

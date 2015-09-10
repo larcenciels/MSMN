@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/hot_chili"
+            android:scaleType="centerCrop" />
+        <ImageView
+            android:background="@android:color/black"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:alpha="0.5" />
+    </RelativeLayout>
+</merge>

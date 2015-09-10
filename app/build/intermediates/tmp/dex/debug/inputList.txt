@@ -1,0 +1,7 @@
+/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/classes/debug
+/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.0-5eaf756714da476565b8867bcd676ec07b9bedbb.jar
+/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/pre-dexed/debug/butterknife-6.1.0-61b6a708c05abf01cc95de8fc57be9f3856389ae.jar
+/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/pre-dexed/debug/volley-5c00c2e3df2b522b0b5eede709a51126bf0d2f26.jar
+/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.0-3e8544b78893b649ee4a5f5b3d098090e3fc634b.jar
+/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/pre-dexed/debug/classes-48c7be9eae6a12db8b9440adc29617c23223383c.jar
+/home/winnerawan/AndroidStudioProjects/MSMN/app/build/intermediates/pre-dexed/debug/classes-6cd5415ac943d009b350cd4bf27a2c141d4d5bd8.jar

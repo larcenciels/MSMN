@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="spacing">8.0dip</dimen>
+    <dimen name="spacing_1.5x">12.0dip</dimen>
+    <dimen name="spacing_2.5x">20.0dip</dimen>
+    <dimen name="spacing_2x">16.0dip</dimen>
+    <dimen name="spacing_3x">24.0dip</dimen>
+    <dimen name="spacing_4x">32.0dip</dimen>
+    <dimen name="spacing_5x">40.0dip</dimen>
+    <dimen name="spacing_9x">72.0dip</dimen>
+    <dimen name="spacing_small">4.0dip</dimen>
+    <dimen name="spacing_tiny">2.0dip</dimen>
+    <dimen name="font_l">25.0sp</dimen>
+    <dimen name="font_m">16.0sp</dimen>
+    <dimen name="font_ml">18.0sp</dimen>
+    <dimen name="font_mll">20.0sp</dimen>
+    <dimen name="font_s">15.0sp</dimen>
+    <dimen name="dashboard_background_image_height">250.0dip</dimen>
+    <dimen name="dashboard_profile_image_size">80.0dip</dimen>
+
+</resources>
